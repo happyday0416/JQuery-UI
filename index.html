@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>JQuery UI</title>
+</head>
+
+<body>
+    <h2>CRYPTID SIGHTING DATA</h2>
+    <h3>Date of Sighting:</h3>
+    <input type="text" name="sighting_date" id="datepicker">
+    <h3>Creature Type:</h3>
+    <div id="type_select">
+        <input type="radio" id="radio1" name="creature_type" />
+        <label for="radio1">Chupacabras</label>
+        <input type="radio" id="radio2" name="creature_type" />
+        <label for="radio2">Jersey Devil</label>
+        <input type="radio" id="radio3" name="creature_type" />
+        <label for="radio3">Loch Ness Monster</label>
+        <input type="radio" id="radio4" name="creature_type" />
+        <label for="radio4">Sasquatch</label>
+    </div>
+    <!--<input type="text" id="my_value" readonly="readonly" />
+    <div id="slide_me">-->
+    <!--Distance from Creature-->
+    <h3>Distance from Creature(in.ft.):</h3>
+    <input type="text" id="distance" class="just_display" name="creature_distance" readonly="readonly" />
+    <div id="slide_dist"></div>
+    <!--Creature Weight (in lbs.)-->
+    <h3>Creature Weight (in lbs.):</h3>
+    <input type="text" id="weight" class="just_dispkay" name="creature_weight" readonly="readonly" />
+    <div id="slide_weight"></div>
+    <!--Creature Height (in lbs.)-->
+    <h3>Creature Height (in lbs.):</h3>
+    <input type="text" id="height" class="just_display" name="creature_height" readonly="readonly" />
+    <div id="slide_height"></div>
+    <h3>Color of Creature (use the color slides to enter):</h3> color(in hexadecimal):
+    <input type="text" class="just_display" name="creature_color" id="color_val" readonly="readonly" />
+    <br/>
+    <br/>
+    <div id="swatch" class="ui-widget-content" ui-corner-all></div>
+    <input type="text" class="just_display" name="creature_color" id="red_val" readonly="readonly" />
+    <div id="red"></div>
+    <input type="text" class="just_display" name="creature_color" id="green_val" readonly="readonly" />
+    <div id="green"></div>
+    <input type="text" class="just_display" name="creature_color" id="blue_val" readonly="readonly" />
+    <div id="blue"></div>
+    <!--JS-->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/ex.js"></script>
+    <script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.min.css">
+</body>
+
+</html>
